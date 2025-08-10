@@ -51,21 +51,17 @@ buttons.forEach((btn) => {
 // }
 function showPrankResult() {
   const messages = [
-    "Ask your mom ",
-    "Go outside and play!",
-    "This calculator is out of order!",
-    "Scroll the Reel on IG",
-    "Ask your GF",
-    "Chai pi le yaar",
-    "Padhai chhod de",
-    "Tu hero lagta",
-    "Ghar ja so jaa",
-    "Kya mast soch",
-    "Mummy bula rahi",
-    "Math ka don tu?",
-    "Aaj holiday hai",
-    "Tu best hai yaar",
-    "Smile zara kar"
+
+    "Mogambo khush hua",  // Bollywood classic
+    "Basanti nach naa",   // Sholay fun
+    "Picture abhi baki",  // Iconic dialogue
+    "Brain not found",    // Funny tech error
+    "Error 404: Logic",   // Geek humor
+    "Math left the chat", // Meme style
+    "Loading… forever",   // Relatable joke
+    "Chai pi le yaar",    // Light tease
+    "Ask Google bro",     // Modern funny
+    "Numbers ran away"    // Math escape
   ];
 
   const randomIndex = Math.floor(Math.random() * messages.length);
